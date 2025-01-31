@@ -1,0 +1,15 @@
+D:\Usuarios\Alondra\Documents\UNAB\CICLO V -2025 - UNAB\sPG3-25\Periodo 1\Guias-React\NotasProyecto\reactBackend\bin\Debug\net8.0\reactBackend.deps.json
+D:\Usuarios\Alondra\Documents\UNAB\CICLO V -2025 - UNAB\sPG3-25\Periodo 1\Guias-React\NotasProyecto\reactBackend\bin\Debug\net8.0\reactBackend.runtimeconfig.json
+D:\Usuarios\Alondra\Documents\UNAB\CICLO V -2025 - UNAB\sPG3-25\Periodo 1\Guias-React\NotasProyecto\reactBackend\bin\Debug\net8.0\reactBackend.dll
+D:\Usuarios\Alondra\Documents\UNAB\CICLO V -2025 - UNAB\sPG3-25\Periodo 1\Guias-React\NotasProyecto\reactBackend\bin\Debug\net8.0\reactBackend.pdb
+D:\Usuarios\Alondra\Documents\UNAB\CICLO V -2025 - UNAB\sPG3-25\Periodo 1\Guias-React\NotasProyecto\reactBackend\obj\Debug\net8.0\reactBackend.csproj.AssemblyReference.cache
+D:\Usuarios\Alondra\Documents\UNAB\CICLO V -2025 - UNAB\sPG3-25\Periodo 1\Guias-React\NotasProyecto\reactBackend\obj\Debug\net8.0\reactBackend.GeneratedMSBuildEditorConfig.editorconfig
+D:\Usuarios\Alondra\Documents\UNAB\CICLO V -2025 - UNAB\sPG3-25\Periodo 1\Guias-React\NotasProyecto\reactBackend\obj\Debug\net8.0\reactBackend.AssemblyInfoInputs.cache
+D:\Usuarios\Alondra\Documents\UNAB\CICLO V -2025 - UNAB\sPG3-25\Periodo 1\Guias-React\NotasProyecto\reactBackend\obj\Debug\net8.0\reactBackend.AssemblyInfo.cs
+D:\Usuarios\Alondra\Documents\UNAB\CICLO V -2025 - UNAB\sPG3-25\Periodo 1\Guias-React\NotasProyecto\reactBackend\obj\Debug\net8.0\reactBackend.csproj.CoreCompileInputs.cache
+D:\Usuarios\Alondra\Documents\UNAB\CICLO V -2025 - UNAB\sPG3-25\Periodo 1\Guias-React\NotasProyecto\reactBackend\obj\Debug\net8.0\reactBackend.sourcelink.json
+D:\Usuarios\Alondra\Documents\UNAB\CICLO V -2025 - UNAB\sPG3-25\Periodo 1\Guias-React\NotasProyecto\reactBackend\obj\Debug\net8.0\reactBackend.dll
+D:\Usuarios\Alondra\Documents\UNAB\CICLO V -2025 - UNAB\sPG3-25\Periodo 1\Guias-React\NotasProyecto\reactBackend\obj\Debug\net8.0\refint\reactBackend.dll
+D:\Usuarios\Alondra\Documents\UNAB\CICLO V -2025 - UNAB\sPG3-25\Periodo 1\Guias-React\NotasProyecto\reactBackend\obj\Debug\net8.0\reactBackend.pdb
+D:\Usuarios\Alondra\Documents\UNAB\CICLO V -2025 - UNAB\sPG3-25\Periodo 1\Guias-React\NotasProyecto\reactBackend\obj\Debug\net8.0\reactBackend.genruntimeconfig.cache
+D:\Usuarios\Alondra\Documents\UNAB\CICLO V -2025 - UNAB\sPG3-25\Periodo 1\Guias-React\NotasProyecto\reactBackend\obj\Debug\net8.0\ref\reactBackend.dll
