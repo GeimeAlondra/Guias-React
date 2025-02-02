@@ -52,6 +52,16 @@ Console.WriteLine(" ");
 Console.WriteLine(" ");
 
 // Borrar un registro
-var resultado = alumnoDao.borrarAlumno(23);
-Console.WriteLine("Se elimino el usuario " + resultado);
+//var resultado = alumnoDao.borrarAlumno(23);
+//Console.WriteLine("Se elimino el usuario " + resultado);
+
+//Console.WriteLine(" ");
+
+// Asignatura desde JOIN
+var alumAsig = alumnoDao.SelectAlumAsig();
+foreach (AlumnoAsignatura alumAsig2 in alumAsig)
+{
+    Console.WriteLine(alumAsig2.nombreAlumno + " Asignatura que cursa " + alumAsig2.nombreAsignatura);
+}
+
 
