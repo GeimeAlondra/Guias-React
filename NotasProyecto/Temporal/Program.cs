@@ -1,4 +1,5 @@
-﻿using reactBackend.Repository;
+﻿using reactBackend.Models;
+using reactBackend.Repository;
 
 // Abstracción de un objeto Dao
 AlumnoDao alumnoDao = new AlumnoDao();
@@ -17,3 +18,40 @@ Console.WriteLine(" ");
 // Probamos el select por Id
 var selectById = alumnoDao.GetById(10);
 Console.WriteLine(selectById?.Nombre);
+
+Console.WriteLine(" ");
+
+// Agregamos un registro
+//var nuevoAlumno = new Alumno
+//{
+//    Direccion = "Chalatenango",
+//    Dni = "12345",
+//    Edad = 30,
+//    Email = "12345@email.com",
+//    Nombre = "Alondra"
+//};
+//var resultado = alumnoDao.insertarAlumno(nuevoAlumno);
+//Console.WriteLine(resultado);
+
+Console.WriteLine(" ");
+
+// Actualizar un registro
+//var nuevoAlumno2 = new Alumno
+//{
+
+//    Direccion = "Ojos de Agua",
+//    Dni = "12345",
+//    Edad = 23,
+//    Email = "12345@email.com",
+//    Nombre = "Alondra Lopez"
+
+//};
+//var resultado2 = alumnoDao.actualizarAlumno(2, nuevoAlumno2);
+//Console.WriteLine(resultado2);
+
+Console.WriteLine(" ");
+
+// Borrar un registro
+var resultado = alumnoDao.borrarAlumno(23);
+Console.WriteLine("Se elimino el usuario " + resultado);
+
