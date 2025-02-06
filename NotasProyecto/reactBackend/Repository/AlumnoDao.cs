@@ -59,7 +59,7 @@ namespace reactBackend.Repository
             }
         }
 
-        public bool actualizarAlumno(int id, Alumno actualizar)
+        public bool update(int id, Alumno actualizar)
         {
             try
             {

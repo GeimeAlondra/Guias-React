@@ -22,21 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AlumnoProfesor.cs",
-              "DocumentMoniker": "D:\\Usuarios\\Alondra\\Documents\\UNAB\\CICLO V -2025 - UNAB\\sPG3-25\\Periodo 1\\Guias-React\\NotasProyecto\\reactBackend\\Models\\AlumnoProfesor.cs",
-              "RelativeDocumentMoniker": "reactBackend\\Models\\AlumnoProfesor.cs",
-              "ToolTip": "D:\\Usuarios\\Alondra\\Documents\\UNAB\\CICLO V -2025 - UNAB\\sPG3-25\\Periodo 1\\Guias-React\\NotasProyecto\\reactBackend\\Models\\AlumnoProfesor.cs",
-              "RelativeToolTip": "reactBackend\\Models\\AlumnoProfesor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T15:02:00.217Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -45,7 +32,7 @@
               "RelativeDocumentMoniker": "reactBackend\\Repository\\AlumnoDao.cs",
               "ToolTip": "D:\\Usuarios\\Alondra\\Documents\\UNAB\\CICLO V -2025 - UNAB\\sPG3-25\\Periodo 1\\Guias-React\\NotasProyecto\\reactBackend\\Repository\\AlumnoDao.cs",
               "RelativeToolTip": "reactBackend\\Repository\\AlumnoDao.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAAAIAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAAD0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T14:52:27.079Z",
               "EditorCaption": ""
@@ -58,9 +45,22 @@
               "RelativeDocumentMoniker": "WebApi\\Controllers\\AlumnoController.cs",
               "ToolTip": "D:\\Usuarios\\Alondra\\Documents\\UNAB\\CICLO V -2025 - UNAB\\sPG3-25\\Periodo 1\\Guias-React\\NotasProyecto\\WebApi\\Controllers\\AlumnoController.cs",
               "RelativeToolTip": "WebApi\\Controllers\\AlumnoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T14:51:02.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AlumnoProfesor.cs",
+              "DocumentMoniker": "D:\\Usuarios\\Alondra\\Documents\\UNAB\\CICLO V -2025 - UNAB\\sPG3-25\\Periodo 1\\Guias-React\\NotasProyecto\\reactBackend\\Models\\AlumnoProfesor.cs",
+              "RelativeDocumentMoniker": "reactBackend\\Models\\AlumnoProfesor.cs",
+              "ToolTip": "D:\\Usuarios\\Alondra\\Documents\\UNAB\\CICLO V -2025 - UNAB\\sPG3-25\\Periodo 1\\Guias-React\\NotasProyecto\\reactBackend\\Models\\AlumnoProfesor.cs",
+              "RelativeToolTip": "reactBackend\\Models\\AlumnoProfesor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T15:02:00.217Z",
               "EditorCaption": ""
             }
           ]
