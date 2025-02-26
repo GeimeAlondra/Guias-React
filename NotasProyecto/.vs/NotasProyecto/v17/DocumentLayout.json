@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Usuarios\\Alondra\\Documents\\UNAB\\CICLO V -2025 - UNAB\\sPG3-25\\Periodo 1\\Guias-React\\NotasProyecto\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DCA18FB4-945D-473D-84A2-B98C41CED32B}|reactBackend\\reactBackend.csproj|d:\\usuarios\\alondra\\documents\\unab\\ciclo v -2025 - unab\\spg3-25\\periodo 1\\guias-react\\notasproyecto\\reactbackend\\models\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA18FB4-945D-473D-84A2-B98C41CED32B}|reactBackend\\reactBackend.csproj|solutionrelative:reactbackend\\models\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F504F0F7-CBB2-4719-8E43-B5C8EA845035}|WebApi\\WebApi.csproj|d:\\usuarios\\alondra\\documents\\unab\\ciclo v -2025 - unab\\spg3-25\\periodo 1\\guias-react\\notasproyecto\\webapi\\controllers\\alumnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F504F0F7-CBB2-4719-8E43-B5C8EA845035}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\alumnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,37 +26,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Alumno.cs",
+              "DocumentMoniker": "D:\\Usuarios\\Alondra\\Documents\\UNAB\\CICLO V -2025 - UNAB\\sPG3-25\\Periodo 1\\Guias-React\\NotasProyecto\\reactBackend\\Models\\Alumno.cs",
+              "RelativeDocumentMoniker": "reactBackend\\Models\\Alumno.cs",
+              "ToolTip": "D:\\Usuarios\\Alondra\\Documents\\UNAB\\CICLO V -2025 - UNAB\\sPG3-25\\Periodo 1\\Guias-React\\NotasProyecto\\reactBackend\\Models\\Alumno.cs",
+              "RelativeToolTip": "reactBackend\\Models\\Alumno.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T16:48:40.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AlumnoDao.cs",
               "DocumentMoniker": "D:\\Usuarios\\Alondra\\Documents\\UNAB\\CICLO V -2025 - UNAB\\sPG3-25\\Periodo 1\\Guias-React\\NotasProyecto\\reactBackend\\Repository\\AlumnoDao.cs",
               "RelativeDocumentMoniker": "reactBackend\\Repository\\AlumnoDao.cs",
               "ToolTip": "D:\\Usuarios\\Alondra\\Documents\\UNAB\\CICLO V -2025 - UNAB\\sPG3-25\\Periodo 1\\Guias-React\\NotasProyecto\\reactBackend\\Repository\\AlumnoDao.cs",
               "RelativeToolTip": "reactBackend\\Repository\\AlumnoDao.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAAAD0AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAcwKcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T14:52:27.079Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AlumnoController.cs",
               "DocumentMoniker": "D:\\Usuarios\\Alondra\\Documents\\UNAB\\CICLO V -2025 - UNAB\\sPG3-25\\Periodo 1\\Guias-React\\NotasProyecto\\WebApi\\Controllers\\AlumnoController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\AlumnoController.cs",
               "ToolTip": "D:\\Usuarios\\Alondra\\Documents\\UNAB\\CICLO V -2025 - UNAB\\sPG3-25\\Periodo 1\\Guias-React\\NotasProyecto\\WebApi\\Controllers\\AlumnoController.cs",
               "RelativeToolTip": "WebApi\\Controllers\\AlumnoController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAswCAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAcwBkAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T14:51:02.298Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AlumnoProfesor.cs",
               "DocumentMoniker": "D:\\Usuarios\\Alondra\\Documents\\UNAB\\CICLO V -2025 - UNAB\\sPG3-25\\Periodo 1\\Guias-React\\NotasProyecto\\reactBackend\\Models\\AlumnoProfesor.cs",
               "RelativeDocumentMoniker": "reactBackend\\Models\\AlumnoProfesor.cs",
@@ -60,8 +77,7 @@
               "RelativeToolTip": "reactBackend\\Models\\AlumnoProfesor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T15:02:00.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T15:02:00.217Z"
             }
           ]
         }

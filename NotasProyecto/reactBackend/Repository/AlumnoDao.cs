@@ -17,7 +17,7 @@ namespace reactBackend.Repository
         // -> el contexto mediante su metodo save guarda las actualizaciones , delete o insert
         // -> devuelve el tipo de correspondiente de error o peticion.
         public RegistroAlumnosContext contexto = new RegistroAlumnosContext();
-    
+
         public List<Alumno> SelectAll()
         {
             // Creamos una variable var que es generica 
@@ -48,7 +48,7 @@ namespace reactBackend.Repository
 
                 // Añadimos al contexto de dataset que representa la base de datos el metodo add
                 contexto.Alumnos.Add(alum);
-                // Este elemnto en si no nos guardara los datos para ello debemos utilizar el metodo save
+                // Este elemento en si no nos guardara los datos para ello debemos utilizar el metodo save
                 contexto.SaveChanges();
                 return true;
 
@@ -146,6 +146,62 @@ namespace reactBackend.Repository
                                 };
 
             return listadoALumno.ToList();
+        }
+
+        public Alumno DNIAlumno(Alumno alumno)
+        {
+            var alumnos = contexto.Alumnos.Where(x => x.Dni == alumno.Dni).FirstOrDefault();
+            return alumnos == null ? null : alumnos;
+        }
+
+        public bool InsertarMatricula(Alumno alumno, int idAsing)
+        {
+            try
+            {
+                var alumnoDNI = DNIAlumno(alumno);
+                // Si existe solo lo añadimos pero si no lo debemos de insertar
+                if (alumnoDNI == null)
+                {
+                    insertarAlumno(alumno);
+                    // Si es null creamos el alumno pero ahora debemos de matricular el alumno con el Dni que corresponda
+                    var alumnoInsertado = DNIAlumno(alumno);
+                    // Ahora debemos crear un objeto matricula para poder hacer la insercion de ambas llaves
+                    var unirAlumnoMatricula = matriculaAsignaturaAlumno(alumno, idAsing);
+                    if (unirAlumnoMatricula == false)
+                    {
+                        return false;
+                    }
+                    return true;
+                }
+                else
+                {
+                    matriculaAsignaturaAlumno(alumnoDNI, idAsing);
+                    return true;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return false;
+            }
+        }
+
+        public bool matriculaAsignaturaAlumno(Alumno alumno, int idAsignatura)
+        {
+            try
+            {
+                Matricula matricula = new Matricula();
+                matricula.AlumnoId = alumno.Id;
+                matricula.AsignaturaId = idAsignatura;
+                contexto.Matriculas.Add(matricula);
+                contexto.SaveChanges();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return false;
+            }
         }
     }
 }
