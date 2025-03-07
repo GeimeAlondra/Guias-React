@@ -34,21 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Calificacion.cs",
-              "DocumentMoniker": "D:\\Usuarios\\Alondra\\Documents\\UNAB\\CICLO V -2025 - UNAB\\sPG3-25\\Periodo 1\\Guias-React\\NotasProyecto\\reactBackend\\Models\\Calificacion.cs",
-              "RelativeDocumentMoniker": "reactBackend\\Models\\Calificacion.cs",
-              "ToolTip": "D:\\Usuarios\\Alondra\\Documents\\UNAB\\CICLO V -2025 - UNAB\\sPG3-25\\Periodo 1\\Guias-React\\NotasProyecto\\reactBackend\\Models\\Calificacion.cs",
-              "RelativeToolTip": "reactBackend\\Models\\Calificacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T21:07:15.994Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -57,7 +44,7 @@
               "RelativeDocumentMoniker": "reactBackend\\Repository\\CalificacionDao.cs",
               "ToolTip": "D:\\Usuarios\\Alondra\\Documents\\UNAB\\CICLO V -2025 - UNAB\\sPG3-25\\Periodo 1\\Guias-React\\NotasProyecto\\reactBackend\\Repository\\CalificacionDao.cs",
               "RelativeToolTip": "reactBackend\\Repository\\CalificacionDao.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAgwDQAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAowFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-27T23:31:01.138Z",
               "EditorCaption": ""
@@ -70,9 +57,22 @@
               "RelativeDocumentMoniker": "WebApi\\Controllers\\CalificacionController.cs",
               "ToolTip": "D:\\Usuarios\\Alondra\\Documents\\UNAB\\CICLO V -2025 - UNAB\\sPG3-25\\Periodo 1\\Guias-React\\NotasProyecto\\WebApi\\Controllers\\CalificacionController.cs",
               "RelativeToolTip": "WebApi\\Controllers\\CalificacionController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwB4AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-27T23:30:19.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Calificacion.cs",
+              "DocumentMoniker": "D:\\Usuarios\\Alondra\\Documents\\UNAB\\CICLO V -2025 - UNAB\\sPG3-25\\Periodo 1\\Guias-React\\NotasProyecto\\reactBackend\\Models\\Calificacion.cs",
+              "RelativeDocumentMoniker": "reactBackend\\Models\\Calificacion.cs",
+              "ToolTip": "D:\\Usuarios\\Alondra\\Documents\\UNAB\\CICLO V -2025 - UNAB\\sPG3-25\\Periodo 1\\Guias-React\\NotasProyecto\\reactBackend\\Models\\Calificacion.cs",
+              "RelativeToolTip": "reactBackend\\Models\\Calificacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T21:07:15.994Z",
               "EditorCaption": ""
             },
             {

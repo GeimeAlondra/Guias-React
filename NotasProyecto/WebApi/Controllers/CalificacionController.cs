@@ -24,5 +24,11 @@ namespace WebApi.Controllers
         {
             return _cdao.insertar(calificacion);
         }
+
+        [HttpDelete("Calificacion")]
+        public bool delete(int idCalificacion)
+        {
+            return _cdao.eliminarCalificacion(idCalificacion);
+        }
     }
 }
