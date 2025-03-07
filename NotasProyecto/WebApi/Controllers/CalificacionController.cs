@@ -18,5 +18,11 @@ namespace WebApi.Controllers
             // Invocando al metodo CalificacionDao
             return _cdao.seleccion(idMatricula);
         }
+
+        [HttpPost("calificacion")]
+        public bool insertar([FromBody] Calificacion calificacion)
+        {
+            return _cdao.insertar(calificacion);
+        }
     }
 }

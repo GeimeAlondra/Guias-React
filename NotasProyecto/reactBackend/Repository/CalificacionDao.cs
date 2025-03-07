@@ -1,4 +1,5 @@
-﻿using reactBackend.Context;
+﻿using Microsoft.Identity.Client;
+using reactBackend.Context;
 using reactBackend.Models;
 using System;
 using System.Collections.Generic;
@@ -33,6 +34,25 @@ namespace reactBackend.Repository
             {
                 Console.WriteLine(ex.Message);
                 return null;
+            }
+        }
+
+        public bool insertar(Calificacion calificacion)
+        {
+            try
+            {
+                if (calificacion == null)
+                {
+                    return false;
+                }
+
+                var addCalificacion = _contexto.Calificacions.Add(calificacion);
+                _contexto.SaveChanges();
+                return true;
+            }
+            catch(Exception ex)
+            {
+                return false;
             }
         }
     }
